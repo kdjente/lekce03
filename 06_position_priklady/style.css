@@ -10,6 +10,94 @@ body {
 	margin: 0;
 }
 
+header {
+	background-color: coral;
+	font-style: normal;
+	
+}
 
+nav a {
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	margin: 0 200px;
+	
+}
+
+.sedy {
+	background-color: lightgray;
+	display: block;
+	width: auto;
+	height: 500px;
+	position: relative;
+	font-weight: bold;
+	text-align: center;
+			
+}
+
+.zeleny {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: lightgreen;
+	width: 250px;
+	height: 50px;
+	padding-top: 12px;
+}
+
+.zluty {
+	position: absolute;
+	top: 250px;
+	right: 0;
+	background-color: yellow;
+	width: 250px;
+	height: 50px;
+	padding-top: 12px;
+}
+
+.modry {
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+	background-color: skyblue;
+	width: 250px;
+	height: 50px;
+	padding-top: 12px;
+}
+
+.cerveny {
+	position: absolute;
+	bottom: 0px;
+	left: calc(50% - 125px);
+	background-color: coral;
+	width: 250px;
+	height: 50px;
+	padding-top: 12px;
+}
+
+.neprectene {
+	position: relative;
+	width: 250px;
+	height: 50px;
+	border: 3px solid grey;
+	margin: auto;
+	padding-top: 10px;
+}
+
+span {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: coral;
+	text-align: center;
+}
 /* tady bude tvůj kód */
+
 
